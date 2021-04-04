@@ -59,7 +59,6 @@ var $dlgSearch = (function() {
         capitalSense: $dlg.find('input[type="checkbox"]:checked').val() === 'capital-sense',
         direction: $dlg.find('input[name="direction"]:checked').val()
       });
-     console.log(searchHandler);
     });
   }
 
